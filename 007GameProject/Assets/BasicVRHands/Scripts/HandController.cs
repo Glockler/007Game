@@ -1,15 +1,15 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿//using UnityEngine;
+//using System.Collections;
 
-public class HandController : MonoBehaviour {
+//public class HandController : MonoBehaviour {
 
-    private Animator animator;
+//    private Animator animator;
 
-	void Start () {
-        animator = GetComponent<Animator>();
-	}
+//	void Start () {
+//        animator = GetComponent<Animator>();
+//	}
 	
-	void Update () {
-        animator.SetBool("isGrabbing", Input.GetKey(KeyCode.F));
-	}
-}
+//	void Update () {
+//        animator.SetBool("isGrabbing", Input.GetKey(KeyCode.F));
+//	}
+//}

@@ -3,15 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Elevator
+  - ElevatorButtonOpen
+  - ElevatorNumericButton
+  - ElevatorGoButton
+  - XR Origin
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - XR Origin
   - Water
   - UI
-  - 
+  - Controllers
   - 
   - 
   - 
