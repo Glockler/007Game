@@ -88,6 +88,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Grip",
+                    "type": "Button",
+                    "id": "fd25f901-13de-4b02-b3b1-f9dbfac58f3d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -198,6 +207,17 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Tracking State",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5b7c973d-9e82-478b-91a3-39821adc9f19",
+                    "path": "<XRController>{LeftHand}/gripPressed",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Grip",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -606,6 +626,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Grip",
+                    "type": "Button",
+                    "id": "acebf112-d941-4f7b-892c-93968f2246ef",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -716,6 +745,17 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Tracking State",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1d165239-8320-4589-ab95-1459ed60d98d",
+                    "path": "<XRController>{RightHand}/gripPressed",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Grip",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
